@@ -1,52 +1,6 @@
-# Python bytecode and caches
-__pycache__/
-*.py[cod]
-*$py.class
-.ipynb_checkpoints/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.hypothesis/
-
-# Virtual environments
-.env
-.venv/
-venv/
-env/
-ENV/
-*venv*/
-pyvenv.cfg
-
-# Build and packaging artifacts
-build/
-dist/
-.eggs/
-*.egg-info/
-*.egg
-pip-wheel-metadata/
-
-# OS / editor
-.DS_Store
-Thumbs.db
-
-# Logs and runtime files
-*.log
-*.pid
-*.out
-*.err
-
-# Common ML / experiment artifacts
-wandb/
-faiss/
-*.db
-*.sqlite
-*.sqlite3
-*.h5
-*.hdf5
-*.ckpt
-*.pt
-*.pth
-*.onnx
-
-# Optional large local assets (adjust as needed)
-Llama-VARCO-8b-news2stock-analyzer-4bit/
+# Allow only notebooks and python files in this repo
+*
+!*/
+!*.ipynb
+!*.py
+!.gitignore
