@@ -4,3 +4,7 @@
 !*.ipynb
 !*.py
 !.gitignore
+
+# Exclude local virtual environments explicitly
+multi_venv/
+mulit_venv/
